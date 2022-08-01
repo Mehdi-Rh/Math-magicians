@@ -1,18 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> One paragraph statement about the project.
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
+Make simple calculations.
+Read a random math-related quote.
+By building this application, you will learn how to use React.
 ![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, Javascript
+- React
+- Vs Code
 
 ## Live Demo
 
