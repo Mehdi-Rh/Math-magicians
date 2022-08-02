@@ -1,7 +1,9 @@
 #calculator {
-  width: 50%;
+  display: inline-grid;
+  width: 100%;
   margin: 5rem auto auto;
   font-size: xx-large;
+  justify-content: center;
 }
 
 #screen {
@@ -24,6 +26,7 @@
 .key {
   border: 0.1px solid lightgray;
   height: 5rem;
+  width: 10rem;
   font-size: large;
 }
 
@@ -34,4 +37,5 @@
 .zero {
   grid-column-start: 1;
   grid-column-end: 3;
+  width: 20rem;
 }
