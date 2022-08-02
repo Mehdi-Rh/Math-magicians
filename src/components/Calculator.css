@@ -1,0 +1,41 @@
+#calculator {
+  display: inline-grid;
+  width: 100%;
+  margin: 5rem auto auto;
+  font-size: xx-large;
+  justify-content: center;
+}
+
+#screen {
+  height: 5rem;
+  background-color: darkgray;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 30px;
+}
+
+#keyboardContainer {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.key {
+  border: 0.1px solid lightgray;
+  height: 5rem;
+  width: 10rem;
+  font-size: large;
+}
+
+.operation {
+  background-color: orange;
+}
+
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 20rem;
+}
