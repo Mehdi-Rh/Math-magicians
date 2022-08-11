@@ -7,6 +7,15 @@
   width: 80vw;
 }
 
-.Home > * {
+.Home > h1 {
+  font-size: xx-large;
+  display: flex;
   margin: 1rem;
+}
+
+.text {
+  margin: 1rem;
+  font-size: larger;
+  display: flex;
+  text-align: start;
 }
