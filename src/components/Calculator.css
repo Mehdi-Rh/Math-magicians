@@ -1,3 +1,11 @@
+body {
+  --grText: #61892f;
+  --grBg: #86c232;
+  --black: #222629;
+  --darkGray: #474b4f;
+  --lightGray: #6b6e70;
+}
+
 #calculator {
   display: inline-grid;
   width: 100%;
@@ -8,7 +16,7 @@
 
 #screen {
   height: 5rem;
-  background-color: darkgray;
+  background-color: var(--darkGray);
   color: white;
   display: flex;
   justify-content: flex-end;
@@ -24,18 +32,32 @@
 }
 
 .key {
-  border: 0.1px solid lightgray;
+  border: 0.1px solid var(--grText);
+  color: var(--black);
   height: 5rem;
   width: 10rem;
+  font-weight: 900;
   font-size: large;
 }
 
 .operation {
-  background-color: orange;
+  background-color: var(--grBg);
+  color: white;
+  font-size: x-large;
 }
 
 .zero {
   grid-column-start: 1;
   grid-column-end: 3;
   width: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+  .key {
+    width: 20vw;
+  }
+
+  .zero {
+    width: 40vw;
+  }
 }

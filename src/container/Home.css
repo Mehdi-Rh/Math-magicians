@@ -1,0 +1,12 @@
+
+.Home {
+  color: white;
+  padding: 70px 0;
+  margin: auto;
+  text-align: center;
+  width: 80vw;
+}
+
+.Home > * {
+  margin: 1rem;
+}

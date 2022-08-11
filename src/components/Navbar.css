@@ -1,3 +1,14 @@
+body {
+  --grText: #61892f;
+  --grBg: #86c232;
+  --grLight: #e5f6df;
+  --black: #222629;
+  --darkGray: #474b4f;
+  --lightGray: #6b6e70;
+
+  background-color: var(--black);
+}
+
 .navigation {
   height: 60px;
   width: 100%;
@@ -5,14 +16,14 @@
   align-items: center;
   position: relative;
   padding: 0.5rem 0;
-  background-color: #fff;
-  color: black;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  color: white;
+  box-shadow: 0 2px 2px 2px var(--grText);
 }
 
 .brand-name {
   text-decoration: none;
-  color: black;
+  color: var(--grBg);
+  font-weight: 900;
   font-size: 1.3rem;
   margin-left: 1rem;
 }
@@ -37,6 +48,12 @@
   text-decoration: none;
   display: block;
   width: 100%;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.navigation-menu li a:hover {
+  color: var(--grBg);
 }
 
 .hamburger {
@@ -46,7 +63,7 @@
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #283b8b;
+  background-color: white;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 
@@ -59,7 +76,11 @@
 }
 
 .hamburger:hover {
-  background-color: #2642af;
+  background-color: var(--grBg);
+}
+
+.hamburger:hover .HamburgerLines {
+  fill: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -81,7 +102,7 @@
     /*  makes menu span full height and width */
     width: 100%;
     height: calc(100vh - 77px);
-    background-color: white;
+    background-color: var(--lightGray);
     border-top: 1px solid black;
   }
 
@@ -92,7 +113,7 @@
   }
 
   .navigation-menu li a {
-    color: black;
+    color: white;
 
     /*  increases the surface area of the anchor tag to span the full width of the menu */
     width: 100%;
@@ -101,6 +122,10 @@
 
   .navigation-menu li:hover {
     background-color: #eee;
+  }
+
+  .navigation-menu li a:hover {
+    color: var(--grBg);
   }
 
   .navigation-menu.expanded ul {
