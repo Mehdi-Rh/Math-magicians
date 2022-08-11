@@ -1,0 +1,134 @@
+body {
+  --grText: #61892f;
+  --grBg: #86c232;
+  --grLight: #e5f6df;
+  --black: #222629;
+  --darkGray: #474b4f;
+  --lightGray: #6b6e70;
+
+  background-color: var(--black);
+}
+
+.navigation {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0;
+  color: white;
+  box-shadow: 0 2px 2px 2px var(--grText);
+}
+
+.brand-name {
+  text-decoration: none;
+  color: var(--grBg);
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.navigation-menu {
+  margin-left: auto;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+
+.navigation-menu li {
+  /* removes default disc bullet for li tags and applies margin to left & right side */
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.navigation-menu li a {
+  /* increases the surface area of the anchor tag to span more than just the anchor text */
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.navigation-menu li a:hover {
+  color: var(--grBg);
+}
+
+.hamburger {
+  /* removes default border on button element */
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  /* positions the icon to the right and center aligns it vertically */
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: var(--grBg);
+}
+
+.hamburger:hover .HamburgerLines {
+  fill: white;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navigation-menu ul {
+    display: none;
+
+    /*  navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+    /*  stacks the li tags vertically */
+    flex-direction: column;
+
+    /*  makes menu span full height and width */
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: var(--lightGray);
+    border-top: 1px solid black;
+  }
+
+  .navigation-menu li {
+    /*  centers link text and strips off margin */
+    text-align: center;
+    margin: 0;
+  }
+
+  .navigation-menu li a {
+    color: white;
+
+    /*  increases the surface area of the anchor tag to span the full width of the menu */
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
+
+  .navigation-menu li a:hover {
+    color: var(--grBg);
+  }
+
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+}

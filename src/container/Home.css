@@ -1,0 +1,21 @@
+
+.Home {
+  color: white;
+  padding: 70px 0;
+  margin: auto;
+  text-align: center;
+  width: 80vw;
+}
+
+.Home > h1 {
+  font-size: xx-large;
+  display: flex;
+  margin: 1rem;
+}
+
+.text {
+  margin: 1rem;
+  font-size: larger;
+  display: flex;
+  text-align: start;
+}
