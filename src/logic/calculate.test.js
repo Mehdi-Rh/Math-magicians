@@ -36,8 +36,7 @@ describe('Calculate test', () => {
     const result = obj;
     const expected = { total: '7', next: null, operation: null };
     expect(result).toEqual(expected);
-  }
-  )
+  });
 
   test('2 * 5', () => {
     let obj = calculate({}, '2');
@@ -47,8 +46,5 @@ describe('Calculate test', () => {
     const result = obj;
     const expected = { total: '10', next: null, operation: null };
     expect(result).toEqual(expected);
-  }
-  )
-
-
+  });
 });

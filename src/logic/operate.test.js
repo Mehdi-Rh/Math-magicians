@@ -11,4 +11,3 @@ describe('Substract operation', () => {
     expect(operate(8, 4, '-')).toBe('4');
   });
 });
-
