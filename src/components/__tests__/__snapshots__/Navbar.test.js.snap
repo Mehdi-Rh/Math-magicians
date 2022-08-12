@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<nav
+  className="navigation"
+>
+  <a
+    className="brand-name"
+    href="/"
+  >
+    Math Magicians
+  </a>
+  <button
+    className="hamburger"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      className="h-5 w-5 "
+      fill="#86c232"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        className="HamburgerLines"
+        clipRule="evenodd"
+        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+        fillRule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    className="navigation-menu"
+  >
+    <ul>
+      <li>
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/calculator"
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quote"
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

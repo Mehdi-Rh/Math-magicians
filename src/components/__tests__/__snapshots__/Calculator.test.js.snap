@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id="calculator"
+>
+  <div
+    id="screen"
+  >
+    0
+  </div>
+  <div
+    id="keyboardContainer"
+  >
+    <button
+      className="key  "
+      id="AC"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="key  "
+      id="+/-"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="key  "
+      id="%"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="key operation "
+      id="÷"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="key  "
+      id={7}
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="key  "
+      id={8}
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="key  "
+      id={9}
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="key operation "
+      id="x"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="key  "
+      id={4}
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="key  "
+      id={5}
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="key  "
+      id={6}
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="key operation "
+      id="-"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="key  "
+      id={1}
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="key  "
+      id={2}
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="key  "
+      id={3}
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="key operation "
+      id="+"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="key  zero"
+      id={0}
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="key  "
+      id="."
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="key operation "
+      id="="
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;

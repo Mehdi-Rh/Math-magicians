@@ -29,10 +29,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.Home {
-  padding: 70px 0;
-  margin: auto;
-  text-align: center;
-  width: 80vw;
-}
