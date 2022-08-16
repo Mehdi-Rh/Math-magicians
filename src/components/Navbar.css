@@ -1,4 +1,3 @@
-
 body {
   --grText: #61892f;
   --grBg: #86c232;
@@ -85,10 +84,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  #nav {
-    animation: 0s;
-  }
-
   .hamburger {
     display: block;
   }

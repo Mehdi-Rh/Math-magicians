@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import './Calculator.css';
-import calculate from '../../../logic/calculate';
+import calculate from '../../logic/calculate';
 
 export default class Calculator extends PureComponent {
   constructor(props) {

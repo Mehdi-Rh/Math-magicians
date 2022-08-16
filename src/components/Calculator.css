@@ -6,6 +6,14 @@ body {
   --lightGray: #6b6e70;
 }
 
+#calculator {
+  display: inline-grid;
+  width: 100%;
+  margin: 5rem auto auto;
+  font-size: xx-large;
+  justify-content: center;
+}
+
 #screen {
   height: 5rem;
   background-color: var(--darkGray);
@@ -27,7 +35,7 @@ body {
   border: 0.1px solid var(--grText);
   color: var(--black);
   height: 5rem;
-  width: 15vw;
+  width: 10rem;
   font-weight: 900;
   font-size: large;
 }
@@ -41,17 +49,7 @@ body {
 .zero {
   grid-column-start: 1;
   grid-column-end: 3;
-  width: 30vw;
-}
-
-@media screen and (min-width: 1000px) {
-  .key {
-    width: 10rem;
-  }
-
-  .zero {
-    width: 20rem;
-  }
+  width: 20rem;
 }
 
 @media screen and (max-width: 768px) {

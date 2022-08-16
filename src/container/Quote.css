@@ -1,0 +1,28 @@
+body {
+  --grText: #61892f;
+  --grBg: #86c232;
+  --grLight: #e5f6df;
+  --black: #222629;
+  --darkGray: #474b4f;
+  --lightGray: #6b6e70;
+}
+
+#quote {
+  margin: 10vh 20vw;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+#quote > * {
+  margin: 0.5rem;
+}
+
+.author {
+  font-size: xx-large;
+  color: var(--grText);
+  display: flex;
+  justify-content: flex-end;
+}
