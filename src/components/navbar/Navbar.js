@@ -21,8 +21,9 @@ const styles = {
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
-    <StyleRoot>
-      <header className="navigation">
+
+    <header className="navigation">
+      <StyleRoot>
         <a href="/" style={(window.innerWidth > 768) ? styles.fadeInLeft : {}} className="brand-name">
           Math Magicians
         </a>
@@ -86,8 +87,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </header>
-    </StyleRoot>
+      </StyleRoot>
+
+    </header>
 
   );
 };

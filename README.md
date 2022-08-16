@@ -75,7 +75,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- For animations I used this interactive [demo] (http://react-animations.herokuapp.com/) 
+- For animations I used this interactive [demo](http://react-animations.herokuapp.com/) 
 - Inspiration
 - etc
 
