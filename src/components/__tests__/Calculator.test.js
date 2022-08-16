@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import React from 'react';
 import Renderer from 'react-test-renderer';
-import Calculator from '../Calculator';
+import Calculator from '../calculator/Calculator';
 
 it('renders correctly', () => {
   const tree = Renderer
