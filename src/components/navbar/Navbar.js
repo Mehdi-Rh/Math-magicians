@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Link,
 } from 'react-router-dom';
@@ -20,6 +20,23 @@ const styles = {
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+  useEffect(() => {
+    // if (window.innerWidth > 768) {
+    //   setIsNavExpanded(false);
+    //   console.log('resize');
+    // }
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setIsNavExpanded(false);
+      }
+      console.log(isNavExpanded);
+      console.log('resized to: ', window.innerWidth, 'x', window.innerHeight);
+    };
+
+    window.addEventListener('resize', handleResize);
+  });
+
   return (
     <StyleRoot>
       <header className="navigation">

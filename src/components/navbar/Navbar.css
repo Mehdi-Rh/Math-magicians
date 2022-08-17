@@ -107,7 +107,7 @@ body {
     /*  makes menu span full height and width */
     width: 100%;
     height: calc(100vh - 77px);
-    background-color: var(--lightGray);
+    background-color: var(--black);
     border-top: 1px solid black;
   }
 
