@@ -1,6 +1,6 @@
 import React from 'react';
 import Renderer from 'react-test-renderer';
-import Home from '../../container/homePage/Home';
+import Home from '../../container/Quote';
 
 it('renders correctly', () => {
   const tree = Renderer

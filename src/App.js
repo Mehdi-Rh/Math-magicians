@@ -6,6 +6,7 @@ import CalculatorPage from './container/calculatorPage/CalculatorPage';
 import Quote from './container/quotePage/Quote';
 import Navbar from './components/navbar/Navbar';
 
+
 const App = () => (
   <div>
     <Navbar />
