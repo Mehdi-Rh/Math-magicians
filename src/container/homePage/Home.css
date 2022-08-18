@@ -2,9 +2,8 @@
 .Home {
   color: white;
   padding: 70px 0;
-  margin: auto;
+  margin: calc(1vw + 0.5rem) 10vw;
   text-align: center;
-  width: 80vw;
 }
 
 .Home > h1 {
@@ -15,7 +14,17 @@
 
 .text {
   margin: 1rem;
-  font-size: larger;
+  font-size: x-large;
   display: flex;
   text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+  .Home {
+    margin: 0.5rem 5vw;
+    padding: 1rem 0;
+  }
+  .text {
+    font-size: larger;
+  }
 }

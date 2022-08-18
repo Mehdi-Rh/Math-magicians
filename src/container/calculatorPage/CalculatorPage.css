@@ -18,15 +18,16 @@ h1 {
   #calculatorPage {
     display: flex;
     flex-direction: column;
+    margin-bottom: 5rem;
   }
 
   h1 {
     color: white;
-    margin: 4rem 0.5rem 0 4rem;
+    margin: 2rem 0.5rem 0 2rem;
   }
 
   #calculator {
     display: inline-grid;
-    margin: 3rem auto auto;
+    margin: 1rem auto auto;
   }
 }
