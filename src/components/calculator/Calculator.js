@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Calculator.css';
-import calculate from '../logic/calculate';
+import calculate from '../../logic/calculate';
 
 const Calculator = () => {
   const [state, setState] = useState({
@@ -48,7 +48,7 @@ const Calculator = () => {
   const { total, next, operation } = state;
 
   return (
-    <div id="calculator">
+    <div>
       <div id="screen">{next || operation || total || 0}</div>
       <div id="keyboardContainer">
         { keyboard }
