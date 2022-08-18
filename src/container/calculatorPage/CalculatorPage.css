@@ -1,0 +1,33 @@
+#calculatorPage {
+  display: flex;
+}
+
+h1 {
+  color: white;
+  margin: 6.5rem 0.5rem 0 4rem;
+}
+
+#calculator {
+  display: inline-grid;
+  margin: 5rem auto auto;
+  font-size: xx-large;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  #calculatorPage {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+
+  h1 {
+    color: white;
+    margin: 2rem 0.5rem 0 2rem;
+  }
+
+  #calculator {
+    display: inline-grid;
+    margin: 1rem auto auto;
+  }
+}

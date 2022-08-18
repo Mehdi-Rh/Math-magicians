@@ -1,0 +1,21 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  color: #fff;
+  background-color: #222629;
+}
+
+footer > a {
+  color: #86c232;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 1rem 0.5rem;
+  }
+}
