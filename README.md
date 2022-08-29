@@ -6,7 +6,6 @@
 
 Make simple calculations.
 Read a random math-related quote.
-By building this application, you will learn how to use React.
 
 ![screenshot](./assets/math-desktop.png)  ![screenshot](./assets/math-mobile.png)
 
