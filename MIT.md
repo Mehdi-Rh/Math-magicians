@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Mostafa Ahangarha and Bonke Gcobo
+Copyright (c) 2022 Mehdi Rahal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this web application and associated documentation files (the "Web Application"), to deal in the Web Application without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Web Application, and to permit persons to whom the Web Application is furnished to do so, subject to the following conditions:
 
