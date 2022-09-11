@@ -6,8 +6,11 @@
 Make simple calculations. 
 Read a random math-related quote.
 
-<img src="./assets/math-desktop.png" alt="drawing" width="400"/>
-<img src="./assets/math-mobile.png" alt="drawing" width="200"/>
+<div>
+  <img src="./assets/math-desktop.png" alt="drawing" width="400"/>
+  <img src="./assets/math-mobile.png" alt="drawing" width="200"/>
+ <div/>
+
 
 Additional description about the project and its features.
 
